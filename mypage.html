@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dustin Thurston</title>
   <link rel="stylesheet" href="styles.css">
@@ -17,12 +18,14 @@
     <p class="intro">Hi there, welcome to my page!  I'm a 5th year computer science student at Grand Valley
       State University! I enjoy learning the Japanese language, snowboarding, mountain biking, writing code, 
       playing music with my band, supporting the local music scene, and generally just learning new things.
+      I was born in Phoenix, Arizona, but was raised and grew up in Michigan's beautiful Upper Peninsula.
     </p>
 
-    <table>
+    <table id="mainTable">
       <tr>
         <td> 
-          <div>
+          <div class="likes">
+            <h3>Things I Enjoy:</h3>
             <ul>
               <li>Snowboarding</li>
               <li>Learning new things</li>
@@ -32,7 +35,7 @@
           </div> 
         </td>
         <td>
-          <div>
+          <div class="person">
             <img id="gma" src="res/great-gma.png" alt="Great Grandma Shirley">
             <p>
               This is my great grandma, Shirley. She helped my mom raise me for the first half of my childhood before
@@ -44,23 +47,84 @@
       </tr>
       <tr>
         <td>
-          <div>
-            <h6>Daily Activities</h6>
-            <ol type="a">
-              <li>Catch the bus to classes</li>
-              <li>Study & Homework</li>
-              <li>Chat with friends</li>
-              <li>Make dinner</li>
-              <li>Household chores</li>
-              <li>Listen to music</li>
-            </ol>
+          <div class="daily">
+              <h3>Daily Activities:</h3>
+              <ol>
+                <li>Catch the bus to classes</li>
+                <li>Study & Homework</li>
+                <li>Chat with friends</li>
+                <li>Make dinner</li>
+                <li>Household chores</li>
+                <li>Listen to music</li>
+              </ol>
           </div>
         </td>
-        <td></td>
+        <td>
+          <div class="courses">
+            <h3>Courses I have taken:</h3>
+            <table id="courseTable">
+              <tr>
+                <td>CIS 367</td>
+                <td>Computer Graphics</td>
+                <td>3cr</td>
+              </tr>
+              <tr>
+                <td>CIS 357</td>
+                <td>Mobile Application Development</td>
+                <td>3cr</td>
+              </tr>
+              <tr>
+                <td>CIS 457</td>
+                <td>Data Communications</td>
+                <td>4cr</td>
+              </tr>
+              <tr>
+                <td>JPN 101</td>
+                <td>Beg. Japanese I: Lang/Culture</td>
+                <td>4cr</td>
+              </tr>
+              <tr>
+                  <td>CMB 350</td>
+                  <td>Foundations of Brewing</td>
+                  <td>3cr</td>
+                </tr>
+            </table>
+            
+          </div>
+        </td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>
+          <div class="links">
+            <h3>Some favorite websites:</h3>
+              <a href="https://www.reddit.com/">Reddit</a>
+              <a href="https://github.com/DustinsCode">Github (My profile)</a>
+              <a href="https://www.youtube.com/watch?v=dDn04KCpdR0">Youtube (link to one of my favorite J-Rock bands</a></li>
+              <a href="https://www.crunchyroll.com/">crunchyroll</a>
+          </div>
+        </td>
+        <td>
+          <div class="quotes">
+            <h3>Quotes:</h3>
+            <p>
+              <q>Vivamus, moriendum est.
+                Let us live, since we must die.
+            </q>
+            </p>
+            <p>
+              <q class="best">
+                  Si vis amari, ama.
+                  If you wish to be loved, love.
+              </q>
+            </p>
+            <p>
+              <q>Tantum religio potuit suadere malorum.
+                So potent was Religion in persuading to do wrong.
+              </q>
+            </p>
+
+          </div>
+        </td>
       </tr>
     </table>
     

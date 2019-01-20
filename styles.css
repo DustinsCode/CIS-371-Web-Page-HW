@@ -1,14 +1,48 @@
+html {
+    font: Times medium black;
+    background-color: #5CDB95
+}
 #me {
     float: right;
     height: 180px;
     width: 270px;
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
 
 #gma {
-    height: 40%;
-    width: 40%;
+    display: block;
+    height: 20%;
+    width: 20%;
+    margin: auto;
 }
 
-p {
-    /* float: left; */
+#courseTable {
+    border: solid;
+}
+
+#courseTable tr td:nth-child(2n+1) {
+    display: block;
+    margin: auto;
+    width:auto;
+}
+
+#courseTable tr:nth-child(odd) {
+    background-color: #379683;
+}
+
+#courseTable tr:nth-child(even) {
+    background-color: #EDF5E1;
+}
+
+.best {
+    font-style: italic
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+table p{
+    font-size: small;
 }
