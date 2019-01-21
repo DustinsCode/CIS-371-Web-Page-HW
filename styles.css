@@ -10,11 +10,26 @@ html {
     margin-bottom: 1em;
 }
 
+#corgo {
+    height:5%;
+    width:5%;
+    vertical-align: middle;
+}
+
 #gma {
     display: block;
     height: 20%;
     width: 20%;
     margin: auto;
+}
+
+#mainTable{
+    display: inline-table;
+    vertical-align: text-top;
+}
+
+#mainTable tr td {
+    vertical-align: top;
 }
 
 #courseTable {
@@ -33,6 +48,31 @@ html {
 
 #courseTable tr:nth-child(even) {
     background-color: #EDF5E1;
+}
+
+#courseTable:nth-child() {
+    text-align: center;
+}
+
+/* html,body,.top {
+    margin: 0;
+} */
+
+.top {
+    background-color: #379683;
+    padding-top: 0.75%;
+    padding-right: 0.75%;
+    padding-left: 0.75%;
+    padding-bottom: 3em;
+}
+
+
+.likes {
+    color: #05386B;
+}
+
+.links a{
+    color: #EDF5E1;
 }
 
 .best {
