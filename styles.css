@@ -36,10 +36,8 @@ html {
     border: solid;
 }
 
-#courseTable tr td:nth-child(2n+1) {
-    display: block;
-    margin: auto;
-    width:auto;
+#courseTable td:nth-child(2n+1) {
+    text-align: center;
 }
 
 #courseTable tr:nth-child(odd) {
@@ -50,7 +48,7 @@ html {
     background-color: #EDF5E1;
 }
 
-#courseTable:nth-child() {
+#courseTable:nth-child(1) {
     text-align: center;
 }
 
