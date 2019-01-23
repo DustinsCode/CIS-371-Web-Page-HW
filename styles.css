@@ -1,6 +1,6 @@
 html {
     font: Times medium black;
-    background-color: #5CDB95
+    background-color:#379683
 }
 #me {
     float: right;
@@ -26,10 +26,13 @@ html {
 #mainTable{
     display: inline-table;
     vertical-align: text-top;
+    background-color: #5CDB95;
+    border-color: #5CDB95;
 }
 
 #mainTable tr td {
     vertical-align: top;
+    background-color: #5CDB95;
 }
 
 #courseTable {
@@ -41,7 +44,7 @@ html {
 }
 
 #courseTable tr:nth-child(odd) {
-    background-color: #379683;
+    background-color: #5CDB95;
 }
 
 #courseTable tr:nth-child(even) {
@@ -57,7 +60,7 @@ html {
 } */
 
 .top {
-    background-color: #379683;
+    background-color: #5CDB95;
     padding-top: 0.75%;
     padding-right: 0.75%;
     padding-left: 0.75%;
@@ -67,6 +70,27 @@ html {
 
 .likes {
     font-style: oblique;
+    background-color: #5CDB95;
+}
+
+.person {
+    background-color: #5CDB95;
+}
+
+.daily {
+    background-color: #5CDB95;
+}
+
+.courses {
+    background-color: #5CDB95;
+}
+
+.quotes {
+    background-color: #5CDB95;
+}
+
+.links {
+    background-color: #5CDB95;
 }
 
 .links a{
