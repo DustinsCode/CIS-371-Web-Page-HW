@@ -30,13 +30,13 @@ html {
     border-color: #5CDB95;
 }
 
-#mainTable tr td {
-    vertical-align: top;
-    background-color: #5CDB95;
+#mainTable tr td{
+    vertical-align: text-top;
 }
 
 #courseTable {
     border: solid;
+    border-collapse: separate;
 }
 
 #courseTable td:nth-child(2n+1) {
@@ -44,20 +44,16 @@ html {
 }
 
 #courseTable tr:nth-child(odd) {
-    background-color: #5CDB95;
+    background-color: #EDF5E1;
 }
 
 #courseTable tr:nth-child(even) {
-    background-color: #EDF5E1;
+    background-color: #379683;
 }
 
 #courseTable:nth-child(1) {
     text-align: center;
 }
-
-/* html,body,.top {
-    margin: 0;
-} */
 
 .top {
     background-color: #5CDB95;
@@ -70,7 +66,6 @@ html {
 
 .likes {
     font-style: oblique;
-    background-color: #5CDB95;
 }
 
 .person {
