@@ -212,14 +212,14 @@ describe('Web Page Homework', () => {
         return;
       }
     }
-    const images = page.querySelectorAll('body > img:first-of-type');
+    const images = page.querySelectorAll('body > div > img:first-of-type');
     expect(images).not.toBeNull();
     expect(images.length).toBeGreaterThan(0);
     expect(matchElementsWithStyles(images, selectors)).toBeTruthy();
   });
 
   it('your personal photo has margins', () => {
-    const pic = page.querySelector('body > img:first-of-type');
+    const pic = page.querySelector('body > div > img:first-of-type');
     expect(pic).toExist();
     const selectors = findSelectorWithPropAndValue('margin-bottom');
     const isFound = matchElementsWithStyles([pic], selectors);
